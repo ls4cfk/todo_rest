@@ -5,12 +5,6 @@ class Todo {
 
   Todo({this.id, this.todo, this.description});
 
-  // Todo.fromJson(Map<String, dynamic> json) {
-  //   id = json['id'];
-  //   todo = json['todo'];
-  //   description = json['description'];
-  // }
-
   factory Todo.fromJson(Map<String, dynamic> json) {
     return Todo(
       id: json['id'],

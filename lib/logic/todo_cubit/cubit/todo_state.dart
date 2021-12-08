@@ -4,7 +4,7 @@ part of 'todo_cubit.dart';
 abstract class TodoState extends Equatable {}
 
 class TodoInitial extends TodoState {
-  @override
+  @override 
   List<Object?> get props => [];
 }
 
@@ -25,3 +25,5 @@ class TodoLoadingError extends TodoState {
   @override
   List<Object?> get props => [errorMessage];
 }
+
+
